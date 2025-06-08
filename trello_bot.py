@@ -15,13 +15,13 @@ url = os.getenv("BASE_URL")
 email = os.getenv("EMAIL")
 pwd = os.getenv("PASSWORD")
 
-# instantiate webdriver and open a chrome browser
+# Instantiate webdriver and open a Chrome browser
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
 # maximize browser window
 driver.maximize_window()
 
-# load web page
+# Load the web page
 driver.get(url)
 
 # define a wait
