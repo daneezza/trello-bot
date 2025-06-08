@@ -27,15 +27,6 @@ This project automates Trello login and task card creation using **Python**, **S
 
 ---
 
-## 📁 Project Structure
-
-Trello-Bot/
-│
-├── trello_bot.py # Main automation script
-├── .env # Environment variables (ignored in Git)
-├── requirements.txt # Dependencies list
-└── README.md # This file
-
 ## 📦 Installation
 
 1. **Clone the repository:**
