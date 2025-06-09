@@ -97,5 +97,7 @@ except Exception as e:
     print(f"An Error Occurred: {e}")
 
 finally:
+    print("Trello Bot executed successfully!")
+    print("Created by Daneesha Hansaka.")
     driver.quit()
 
